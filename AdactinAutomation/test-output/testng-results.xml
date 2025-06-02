@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-02T06:39:32Z" name="Default suite" finished-at="2025-06-02T06:40:19Z" duration-ms="47108">
+    <groups>
+    </groups>
+    <test started-at="2025-06-02T06:39:32Z" name="Default test" finished-at="2025-06-02T06:40:19Z" duration-ms="47108">
+      <class name="com.adactin.testcases.BookingConfirmationPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:39:32Z" name="beforeSuite" finished-at="2025-06-02T06:39:32Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="BaseClass()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:39:32Z" name="BaseClass" finished-at="2025-06-02T06:39:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:39:32Z" name="setUp" finished-at="2025-06-02T06:40:09Z" duration-ms="36691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyverifyBookingConfirmationPageTest()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:40:09Z" name="verifyverifyBookingConfirmationPageTest" finished-at="2025-06-02T06:40:19Z" duration-ms="10088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyverifyBookingConfirmationPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:40:19Z" name="tearDown" finished-at="2025-06-02T06:40:19Z" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactin.testcases.BookingConfirmationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

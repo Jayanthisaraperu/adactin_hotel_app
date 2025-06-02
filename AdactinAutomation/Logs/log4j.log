@@ -1,0 +1,469 @@
+2025-05-27 12:34:02 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:34:03 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:34:05 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:34:05 INFO  Log:22 - Login is Success
+2025-05-27 12:34:05 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:34:08 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:34:09 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:34:11 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:34:11 INFO  Log:22 - Login is Success
+2025-05-27 12:34:11 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:34:14 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:34:14 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:34:16 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:34:16 INFO  Log:22 - Login is Success
+2025-05-27 12:34:16 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:50:16 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-27 12:50:16 INFO  Log:22 - Click Forgor Password Link
+2025-05-27 12:50:16 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-27 12:50:16 INFO  Log:22 - ForgorPassword Success 
+2025-05-27 12:50:16 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-27 12:50:20 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:50:20 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:50:22 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:50:22 INFO  Log:22 - Login is Success
+2025-05-27 12:50:22 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:50:25 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:50:26 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:50:28 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:50:28 INFO  Log:22 - Login is Success
+2025-05-27 12:50:28 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:50:31 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:50:32 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:50:34 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:50:34 INFO  Log:22 - Login is Success
+2025-05-27 12:50:34 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:50:37 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:50:37 INFO  Log:22 - Verifying Logo
+2025-05-27 12:50:37 INFO  Log:22 - Logo Success
+2025-05-27 12:50:37 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:50:40 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:50:40 INFO  Log:22 - Verifying Title
+2025-05-27 12:50:40 INFO  Log:22 -  Title Success
+2025-05-27 12:50:40 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:54:40 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:54:41 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:54:43 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:54:43 INFO  Log:22 - Login is Success
+2025-05-27 12:54:43 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:54:46 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:54:47 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:54:49 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:54:49 INFO  Log:22 - Login is Success
+2025-05-27 12:54:49 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 12:54:52 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 12:54:53 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-27 12:54:55 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-27 12:54:55 INFO  Log:22 - Login is Success
+2025-05-27 12:54:55 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-27 19:18:37 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-27 19:18:37 INFO  Log:22 - Verifying Title
+2025-05-27 19:18:37 INFO  Log:22 -  Title Success
+2025-05-27 19:18:37 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 11:17:32 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-28 11:17:33 INFO  Log:22 - Click Forgor Password Link
+2025-05-28 11:17:33 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-28 11:17:33 INFO  Log:22 - ForgorPassword Success 
+2025-05-28 11:17:33 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-28 11:18:15 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-28 11:18:15 INFO  Log:22 - Verifying Title
+2025-05-28 11:18:15 INFO  Log:22 -  Title Success
+2025-05-28 11:18:15 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 11:29:45 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-28 11:29:45 INFO  Log:22 - Verifying Title
+2025-05-28 11:29:45 INFO  Log:22 -  Title Success
+2025-05-28 11:29:45 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 11:31:09 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-28 11:31:10 INFO  Log:22 - Click Forgor Password Link
+2025-05-28 11:31:10 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-28 11:31:10 INFO  Log:22 - ForgorPassword Success 
+2025-05-28 11:31:10 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-28 11:42:17 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-28 11:42:17 INFO  Log:22 - Verifying Title
+2025-05-28 11:42:17 INFO  Log:22 -  Title Success
+2025-05-28 11:42:17 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 11:42:53 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-28 11:42:54 INFO  Log:22 - Click Forgor Password Link
+2025-05-28 11:42:54 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-28 11:42:54 INFO  Log:22 - ForgorPassword Success 
+2025-05-28 11:42:54 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-28 12:56:09 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-28 12:56:10 INFO  Log:22 - Click Forgor Password Link
+2025-05-28 12:56:10 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-28 12:56:10 INFO  Log:22 - ForgorPassword Success 
+2025-05-28 12:56:10 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-28 13:06:14 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-28 13:06:15 INFO  Log:22 - Click Forgor Password Link
+2025-05-28 13:06:15 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-28 13:06:15 INFO  Log:22 - ForgorPassword Success 
+2025-05-28 13:06:15 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-28 13:06:29 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-28 13:06:30 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-28 13:06:32 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-28 13:06:32 INFO  Log:22 - Login is Success
+2025-05-28 13:06:32 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 13:06:35 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-28 13:06:35 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-28 13:06:37 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-28 13:06:37 INFO  Log:22 - Login is Success
+2025-05-28 13:06:37 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 13:06:40 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-28 13:06:40 INFO  Log:22 - Enter Username and Password and clicks Login button 
+2025-05-28 13:06:42 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-28 13:06:42 INFO  Log:22 - Login is Success
+2025-05-28 13:06:42 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-28 13:31:37 INFO  Log:11 - =====================================verifyFunctionalityForiOSTest TEST START=========================================
+2025-05-28 13:31:38 INFO  Log:22 - Verify For iOS Displayed
+2025-05-28 13:31:38 INFO  Log:22 - iOS Displayed is Success
+2025-05-28 13:31:43 INFO  Log:22 - Verify functionality For iOS 
+2025-05-29 11:13:05 INFO  Log:11 - =====================================verifySearchHotelPageTitle Test TEST START=========================================
+2025-05-29 11:14:28 INFO  Log:11 - =====================================verifySearchHotelPageTitle Test TEST START=========================================
+2025-05-29 11:15:46 INFO  Log:11 - =====================================verifySearchHotelPageTitle Test TEST START=========================================
+2025-05-29 11:15:47 INFO  Log:22 - verify Search HotelPage Title 
+2025-05-29 11:15:47 INFO  Log:22 - Title Success
+2025-05-29 11:15:47 INFO  Log:15 - =====================================verifySearchHotelPageTitle Test TEST END=========================================
+2025-05-29 11:28:24 INFO  Log:11 - =====================================verifyDisplayOfSearchHotelPage TEST START=========================================
+2025-05-29 11:28:25 INFO  Log:22 - Verify Location 
+2025-05-29 11:28:25 INFO  Log:22 - Location Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify Hotels 
+2025-05-29 11:28:25 INFO  Log:22 - Hotels Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify RoomType 
+2025-05-29 11:28:25 INFO  Log:22 - RoomType Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify NoOfRooms 
+2025-05-29 11:28:25 INFO  Log:22 - NoOfRooms Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify ChkinDate 
+2025-05-29 11:28:25 INFO  Log:22 - ChkinDate Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify ChkOutDate 
+2025-05-29 11:28:25 INFO  Log:22 - ChkOutDate Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify AdultsPerRoom 
+2025-05-29 11:28:25 INFO  Log:22 - AdultsPerRoom Success
+2025-05-29 11:28:25 INFO  Log:22 - Verify ChildrenPerRoom 
+2025-05-29 11:28:25 INFO  Log:22 - ChildrenPerRoom Success
+2025-05-29 11:28:25 INFO  Log:15 - =====================================verifyDisplayOfSearchHotelPage TEST END=========================================
+2025-05-29 11:29:12 INFO  Log:11 - =====================================verifyDisplayOfSearchHotelPage TEST START=========================================
+2025-05-29 11:29:13 INFO  Log:22 - Verify Location 
+2025-05-29 11:29:13 INFO  Log:22 - Location Success
+2025-05-29 11:29:13 INFO  Log:22 - Verify Hotels 
+2025-05-29 11:32:57 INFO  Log:11 - =====================================verifyBookedItineraryLink TEST START=========================================
+2025-05-29 11:32:57 INFO  Log:22 - verifyBookedItineraryLink is click
+2025-05-29 11:33:22 INFO  Log:22 - Navigates to BookedItineraryPage
+2025-05-29 11:33:22 INFO  Log:22 - Verify bookedItineraryPage
+2025-05-29 11:33:22 INFO  Log:15 - =====================================bookedItineraryPage Success TEST END=========================================
+2025-05-29 11:34:22 INFO  Log:11 - =====================================verifyBookedItineraryLink TEST START=========================================
+2025-05-29 11:34:22 INFO  Log:22 - verifyBookedItineraryLink is click
+2025-05-29 11:34:43 INFO  Log:22 - Navigates to BookedItineraryPage
+2025-05-29 11:34:43 INFO  Log:22 - Verify bookedItineraryPage
+2025-05-29 11:34:43 INFO  Log:22 - bookedItineraryPage Success
+2025-05-29 11:34:43 INFO  Log:15 - =====================================verifyBookedItineraryLink TEST END=========================================
+2025-05-29 11:36:58 INFO  Log:11 - =====================================verifyChangePasswordLink TEST START=========================================
+2025-05-29 11:36:58 INFO  Log:22 - verifyChangePasswordLink is click
+2025-05-29 11:37:03 INFO  Log:22 - Navigates to ChangePasswordPage
+2025-05-29 11:37:03 INFO  Log:22 - Verify ChangePasswordPage
+2025-05-29 11:37:03 INFO  Log:22 - ChangePasswordPage Success
+2025-05-29 11:37:03 INFO  Log:15 - =====================================verifyChangePasswordLink TEST END=========================================
+2025-05-29 11:38:48 INFO  Log:11 - =====================================verifyLogoutLink TEST START=========================================
+2025-05-29 11:38:48 INFO  Log:22 - verifyLogoutLink is click
+2025-05-29 11:38:51 INFO  Log:22 - Navigates to LogoutPage
+2025-05-29 11:38:51 INFO  Log:22 - Verify LogoutPage
+2025-05-29 11:38:51 INFO  Log:22 - LogoutPage Success
+2025-05-29 11:38:51 INFO  Log:15 - =====================================verifyLogoutLink TEST END=========================================
+2025-05-29 11:41:14 INFO  Log:11 - =====================================verifySearchHotelDetails TEST START=========================================
+2025-05-29 11:41:14 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 11:41:21 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 11:41:21 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 11:41:21 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 11:41:21 INFO  Log:15 - =====================================verifySearchHotelDetails TEST END=========================================
+2025-05-29 12:17:48 INFO  Log:11 - =====================================verifyNewUserRegisterHereLink TEST START=========================================
+2025-05-29 12:17:48 INFO  Log:22 - NewUserRegisterHereLink is displayed
+2025-05-29 12:17:48 INFO  Log:22 - NewUserRegisterHereLink Success
+2025-05-29 12:17:48 INFO  Log:22 - NewUserRegisterHereLink  is clicked
+2025-05-29 12:17:49 INFO  Log:22 -  Navigates to NewUserRegistrationFormPage
+2025-05-29 12:17:49 INFO  Log:22 - Verify NewUserRegistrationFormPage
+2025-05-29 12:17:49 INFO  Log:22 - NewUserRegistrationFormPage Success
+2025-05-29 12:17:49 INFO  Log:15 - =====================================NewUserRegisterHere TEST END=========================================
+2025-05-29 12:22:46 INFO  Log:11 - =====================================verifyFunctionalityForGooglePlayTest TEST START=========================================
+2025-05-29 12:22:46 INFO  Log:22 - GooglePlay is displayed
+2025-05-29 12:22:46 INFO  Log:22 - GooglePlay Success
+2025-05-29 12:22:46 INFO  Log:22 - GooglePlay  is clicked
+2025-05-29 12:22:48 INFO  Log:22 -  Navigates to GooglePlayPage
+2025-05-29 12:22:48 INFO  Log:22 - Verify GooglePlayPage
+2025-05-29 12:28:32 INFO  Log:11 - =====================================verifyFunctionalityForGooglePlayTest TEST START=========================================
+2025-05-29 12:28:32 INFO  Log:22 - GooglePlay is displayed
+2025-05-29 12:28:32 INFO  Log:22 - GooglePlay Success
+2025-05-29 12:28:32 INFO  Log:22 - GooglePlay  is clicked
+2025-05-29 12:28:34 INFO  Log:22 -  Navigates to GooglePlayPage
+2025-05-29 12:28:34 INFO  Log:22 - Verify GooglePlayPage
+2025-05-29 12:42:29 INFO  Log:11 - =====================================verifyNewUserRegisterHereLink TEST START=========================================
+2025-05-29 12:42:30 INFO  Log:22 - NewUserRegisterHereLink is displayed
+2025-05-29 12:42:30 INFO  Log:22 - NewUserRegisterHereLink Success
+2025-05-29 12:42:30 INFO  Log:22 - NewUserRegisterHereLink  is clicked
+2025-05-29 12:42:31 INFO  Log:22 -  Navigates to NewUserRegistrationFormPage
+2025-05-29 12:42:31 INFO  Log:22 - Verify NewUserRegistrationFormPage
+2025-05-29 12:42:31 INFO  Log:22 - NewUserRegistrationFormPage Success
+2025-05-29 12:42:31 INFO  Log:15 - =====================================verifyNewUserRegisterHereLink TEST END=========================================
+2025-05-29 12:43:56 INFO  Log:11 - =====================================verifyNewUserRegisterHereLink TEST START=========================================
+2025-05-29 12:43:56 INFO  Log:22 - NewUserRegisterHereLink is displayed
+2025-05-29 12:43:56 INFO  Log:22 - NewUserRegisterHereLink Success
+2025-05-29 12:43:56 INFO  Log:22 - NewUserRegisterHereLink  is clicked
+2025-05-29 12:43:57 INFO  Log:22 -  Navigates to NewUserRegistrationFormPage
+2025-05-29 12:43:57 INFO  Log:22 - Verify NewUserRegistrationFormPage
+2025-05-29 12:43:57 INFO  Log:22 - NewUserRegistrationFormPage Success
+2025-05-29 12:43:57 INFO  Log:15 - =====================================verifyNewUserRegisterHereLink TEST END=========================================
+2025-05-29 13:14:57 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:14:57 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:15:03 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:15:03 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:20:06 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:20:06 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:20:13 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:20:13 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:24:00 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:24:00 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:24:06 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:24:06 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:25:20 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:25:20 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:25:27 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:25:27 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:25:27 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:25:27 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:27:14 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:27:14 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:27:21 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:27:21 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:27:21 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:27:21 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:29:27 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:29:27 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:29:34 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:29:34 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:29:34 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:29:34 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:31:31 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:31:31 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:31:38 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:31:38 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:31:38 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:31:38 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:32:18 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:32:18 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:32:24 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:32:24 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:32:24 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:32:24 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:34:02 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:34:02 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:34:09 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:34:09 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:34:09 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:34:09 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:35:29 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:35:29 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:35:36 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:35:36 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:35:36 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:35:36 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:36:24 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:36:24 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:36:32 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:36:32 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:36:32 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:36:32 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:42:22 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:42:22 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:42:29 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:42:29 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:42:29 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:42:29 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:51:46 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:51:46 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:51:54 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:51:54 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:51:54 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:51:54 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:52:43 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:52:43 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:52:50 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:52:50 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:52:50 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:52:50 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:53:27 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:53:27 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:53:35 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:53:35 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:53:35 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:53:35 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:54:54 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:54:54 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:55:00 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:55:00 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:55:00 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:55:00 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:57:34 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:57:34 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:57:41 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:57:41 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:57:41 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:57:41 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 13:58:48 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 13:58:48 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 13:58:54 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 13:58:54 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 13:58:54 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 13:58:54 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 14:00:05 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 14:00:05 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 14:00:12 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 14:00:12 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 14:00:12 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 14:00:12 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 14:01:04 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 14:01:04 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 14:01:10 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 14:01:10 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 14:01:10 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 14:01:10 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 14:19:39 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 14:19:39 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 14:20:07 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 14:20:07 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 14:25:35 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 14:25:35 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 15:25:30 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 15:25:31 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 15:31:39 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 15:31:39 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 15:33:18 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 15:33:18 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 15:33:25 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 15:33:25 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 15:33:25 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 15:33:25 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-29 15:38:44 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-29 15:38:44 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-29 15:38:50 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-29 15:38:51 INFO  Log:22 - Verify SelectHotelPage
+2025-05-29 15:38:51 INFO  Log:22 -  SelectHotelPage Success
+2025-05-29 15:38:51 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-30 11:34:17 INFO  Log:11 - =====================================verifyLogoutLink TEST START=========================================
+2025-05-30 11:34:17 INFO  Log:22 - verifyLogoutLink is click
+2025-05-30 11:34:20 INFO  Log:22 - Navigates to LogoutPage
+2025-05-30 11:34:20 INFO  Log:22 - Verify LogoutPage
+2025-05-30 11:34:20 INFO  Log:22 - LogoutPage Success
+2025-05-30 11:34:20 INFO  Log:15 - =====================================verifyLogoutLink TEST END=========================================
+2025-05-30 12:26:13 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-30 12:26:13 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-30 12:26:19 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-30 12:26:19 INFO  Log:22 - Verify SelectHotelPage
+2025-05-30 12:26:19 INFO  Log:22 -  SelectHotelPage Success
+2025-05-30 12:26:19 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-30 12:28:21 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-30 12:28:21 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-30 12:28:28 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-30 12:28:28 INFO  Log:22 - Verify SelectHotelPage
+2025-05-30 12:28:28 INFO  Log:22 -  SelectHotelPage Success
+2025-05-30 12:28:28 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-30 12:31:30 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-30 12:31:30 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-30 12:31:36 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-30 12:31:36 INFO  Log:22 - Verify SelectHotelPage
+2025-05-30 12:31:36 INFO  Log:22 -  SelectHotelPage Success
+2025-05-30 12:31:36 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-30 12:43:47 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-30 12:43:47 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-30 12:43:54 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-30 12:43:54 INFO  Log:22 - Verify SelectHotelPage
+2025-05-30 12:43:54 INFO  Log:22 -  SelectHotelPage Success
+2025-05-30 12:43:54 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-30 13:28:39 INFO  Log:11 - ===================================== ForgotPassword Test TEST START=========================================
+2025-05-30 13:28:39 INFO  Log:22 - Click Forgor Password Link
+2025-05-30 13:28:39 INFO  Log:22 - Verify ForgotPassword Link 
+2025-05-30 13:28:39 INFO  Log:22 - ForgorPassword Success 
+2025-05-30 13:28:39 INFO  Log:15 - =====================================ForgotPassword Test TEST END=========================================
+2025-05-30 13:28:41 INFO  Log:11 - =====================================verifyFunctionalityForGooglePlayTest TEST START=========================================
+2025-05-30 13:28:42 INFO  Log:22 - GooglePlay is displayed
+2025-05-30 13:28:42 INFO  Log:22 - GooglePlay Success
+2025-05-30 13:28:42 INFO  Log:22 - GooglePlay  is clicked
+2025-05-30 13:28:44 INFO  Log:22 -  Navigates to GooglePlayPage
+2025-05-30 13:28:44 INFO  Log:22 - Verify GooglePlayPage
+2025-05-30 13:28:46 INFO  Log:11 - =====================================verify Functionality For iOSTest TEST START=========================================
+2025-05-30 13:28:46 INFO  Log:22 - Verify For iOS Displayed
+2025-05-30 13:28:46 INFO  Log:22 - iOS Displayed is Success
+2025-05-30 13:28:52 INFO  Log:22 - Verify functionality For iOS 
+2025-05-30 13:28:54 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-30 13:28:55 INFO  Log:22 - Enters Username and Password and clicks Login button 
+2025-05-30 13:28:57 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-30 13:28:57 INFO  Log:22 - Login is Success
+2025-05-30 13:28:57 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-30 13:29:00 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-30 13:29:00 INFO  Log:22 - Enters Username and Password and clicks Login button 
+2025-05-30 13:29:02 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-30 13:29:02 INFO  Log:22 - Login is Success
+2025-05-30 13:29:02 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-30 13:29:04 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-30 13:29:05 INFO  Log:22 - Enters Username and Password and clicks Login button 
+2025-05-30 13:29:07 INFO  Log:22 - Verifying if user is able to Login 
+2025-05-30 13:29:07 INFO  Log:22 - Login is Success
+2025-05-30 13:29:07 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-30 13:29:09 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-30 13:29:09 INFO  Log:22 - Verifying Logo
+2025-05-30 13:29:09 INFO  Log:22 - Logo Success
+2025-05-30 13:29:09 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-30 13:29:12 INFO  Log:11 - =====================================verifyNewUserRegisterHereLink TEST START=========================================
+2025-05-30 13:29:12 INFO  Log:22 - NewUserRegisterHereLink is displayed
+2025-05-30 13:29:12 INFO  Log:22 - NewUserRegisterHereLink Success
+2025-05-30 13:29:12 INFO  Log:22 - NewUserRegisterHereLink  is clicked
+2025-05-30 13:29:13 INFO  Log:22 -  Navigates to NewUserRegistrationFormPage
+2025-05-30 13:29:13 INFO  Log:22 - Verify NewUserRegistrationFormPage
+2025-05-30 13:29:13 INFO  Log:22 - NewUserRegistrationFormPage Success
+2025-05-30 13:29:13 INFO  Log:15 - =====================================verifyNewUserRegisterHereLink TEST END=========================================
+2025-05-30 13:29:15 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2025-05-30 13:29:15 INFO  Log:22 - Verifying Title
+2025-05-30 13:29:15 INFO  Log:22 -  Title Success
+2025-05-30 13:29:15 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2025-05-30 13:30:15 INFO  Log:11 - =====================================verifyBookedItineraryLink TEST START=========================================
+2025-05-30 13:30:15 INFO  Log:22 - verifyBookedItineraryLink is click
+2025-05-30 13:30:28 INFO  Log:22 - Navigates to BookedItineraryPage
+2025-05-30 13:30:28 INFO  Log:22 - Verify bookedItineraryPage
+2025-05-30 13:30:28 INFO  Log:22 - bookedItineraryPage Success
+2025-05-30 13:30:28 INFO  Log:15 - =====================================verifyBookedItineraryLink TEST END=========================================
+2025-05-30 13:30:31 INFO  Log:11 - =====================================verifyChangePasswordLink TEST START=========================================
+2025-05-30 13:30:31 INFO  Log:22 - verifyChangePasswordLink is click
+2025-05-30 13:30:34 INFO  Log:22 - Navigates to ChangePasswordPage
+2025-05-30 13:30:34 INFO  Log:22 - Verify ChangePasswordPage
+2025-05-30 13:30:34 INFO  Log:22 - ChangePasswordPage Success
+2025-05-30 13:30:34 INFO  Log:15 - =====================================verifyChangePasswordLink TEST END=========================================
+2025-05-30 13:30:37 INFO  Log:11 - =====================================verifyDisplayOfSearchHotelPage TEST START=========================================
+2025-05-30 13:30:38 INFO  Log:22 - Verify Location 
+2025-05-30 13:30:38 INFO  Log:22 - Location Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify Hotels 
+2025-05-30 13:30:38 INFO  Log:22 - Hotels Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify RoomType 
+2025-05-30 13:30:38 INFO  Log:22 - RoomType Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify NoOfRooms 
+2025-05-30 13:30:38 INFO  Log:22 - NoOfRooms Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify ChkinDate 
+2025-05-30 13:30:38 INFO  Log:22 - ChkinDate Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify ChkOutDate 
+2025-05-30 13:30:38 INFO  Log:22 - ChkOutDate Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify AdultsPerRoom 
+2025-05-30 13:30:38 INFO  Log:22 - AdultsPerRoom Success
+2025-05-30 13:30:38 INFO  Log:22 - Verify ChildrenPerRoom 
+2025-05-30 13:30:38 INFO  Log:22 - ChildrenPerRoom Success
+2025-05-30 13:30:38 INFO  Log:15 - =====================================verifyDisplayOfSearchHotelPage TEST END=========================================
+2025-05-30 13:30:41 INFO  Log:11 - =====================================verifyFunctionalityOfSearchHotelPage TEST START=========================================
+2025-05-30 13:30:41 INFO  Log:22 - verifySearchHotelDetails is click
+2025-05-30 13:30:47 INFO  Log:22 - Navigates to SelectHotelPage
+2025-05-30 13:30:47 INFO  Log:22 - Verify SelectHotelPage
+2025-05-30 13:30:47 INFO  Log:22 -  SelectHotelPage Success
+2025-05-30 13:30:47 INFO  Log:15 - =====================================verifyFunctionalityOfSearchHotelPage TEST END=========================================
+2025-05-30 13:30:54 INFO  Log:11 - =====================================verifyLogoutLink TEST START=========================================
+2025-05-30 13:30:54 INFO  Log:22 - verifyLogoutLink is click
+2025-05-30 13:30:56 INFO  Log:22 - Navigates to LogoutPage
+2025-05-30 13:30:56 INFO  Log:22 - Verify LogoutPage
+2025-05-30 13:30:56 INFO  Log:22 - LogoutPage Success
+2025-05-30 13:30:56 INFO  Log:15 - =====================================verifyLogoutLink TEST END=========================================
+2025-05-30 13:30:59 INFO  Log:11 - =====================================verifySearchHotelPageTitleTest TEST START=========================================
+2025-05-30 13:30:59 INFO  Log:22 - verify Search HotelPage Title 
+2025-05-30 13:30:59 INFO  Log:22 - Title Success
+2025-05-30 13:30:59 INFO  Log:15 - =====================================verifySearchHotelPageTitleTest TEST END=========================================

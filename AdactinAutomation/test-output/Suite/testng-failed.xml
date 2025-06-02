@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_All(failed)">
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest">
+        <methods>
+          <include name="BaseClass"/>
+          <include name="setUp"/>
+          <include name="verifyFunctionalityForiOSTest"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verifyFunctionalityForGooglePlayTest"/>
+        </methods>
+      </class> <!-- com.adactin.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test_All(failed) -->
+</suite> <!-- Failed suite [Suite] -->
