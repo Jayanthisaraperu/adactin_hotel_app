@@ -8,7 +8,7 @@ public class ForgotPasswordFormPage extends BaseClass{
 	Action action = new Action();
 	
 	public String getForgotPasswordFormPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 
 }

@@ -8,7 +8,7 @@ public class GooglePlayPage extends BaseClass{
 	Action action = new Action();
 	
 	public String  getGooglePlayPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 
 }

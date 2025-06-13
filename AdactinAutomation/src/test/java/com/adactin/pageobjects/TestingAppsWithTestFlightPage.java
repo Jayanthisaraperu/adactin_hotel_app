@@ -8,7 +8,7 @@ public class TestingAppsWithTestFlightPage extends BaseClass{
 	Action action = new Action();
 	
 	public String getTestingAppsWithTestFlightPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 
 }

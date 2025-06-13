@@ -3,6 +3,7 @@ package com.adactin.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.adactin.base.BaseClass;
@@ -16,25 +17,28 @@ import com.adactin.pageobjects.SelectHotelPage;
 import com.adactin.utility.Log;
 
 public class SearchHotelPageTest extends BaseClass {
-	LoginPage loginPage;
-	SearchHotelPage searchHotelPage;
-	SelectHotelPage selectHotelPage;
-	BookedItineraryPage bookedItineraryPage;
-	ChangePasswordPage changePasswordPage;
-	LogoutPage logoutPage;
+	private LoginPage loginPage;
+	private SearchHotelPage searchHotelPage;
+	private SelectHotelPage selectHotelPage;
+	private BookedItineraryPage bookedItineraryPage;
+	private ChangePasswordPage changePasswordPage;
+	private LogoutPage logoutPage;
 
-	@BeforeMethod
-	public void setUp() {
-		launchApp();
-		loginPage = new LoginPage();
-		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
+	@Parameters("browser")
+	@BeforeMethod(groups = { "Smoke", "Sanity", "Regression" })
+	public void setUp(String browser) {
+		launchApp(browser);
+//		loginPage = new LoginPage();
+//		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		
 		
 	}
 
-	@Test
+	@Test(groups = { "Smoke", "Sanity"},enabled=true)
 	public void verifySearchHotelPageTitle() throws Exception {
 		Log.startTestCase("verifySearchHotelPageTitleTest");
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		String actual = searchHotelPage.getSearchHotelPageTitle();
 		String expected = "Adactin.com - Search Hotel";
 		Log.info("verify Search HotelPage Title ");
@@ -46,9 +50,11 @@ public class SearchHotelPageTest extends BaseClass {
 		
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyDisplayOfSearchHotelPage() {
 		Log.startTestCase("verifyDisplayOfSearchHotelPage");
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		searchHotelPage.verifyDisplayOfSearchHotelPageLocation();
 		Log.info("Verify Location ");
 		Assert.assertTrue(true);
@@ -99,9 +105,11 @@ public class SearchHotelPageTest extends BaseClass {
 	
 	}
 	
-	@Test
+	@Test(groups = { "Smoke", "Sanity"})
 	public void verifyBookedItineraryLink() throws Exception {
 		Log.startTestCase("verifyBookedItineraryLink");
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Log.info("verifyBookedItineraryLink is click");
 		bookedItineraryPage = searchHotelPage.verifyThefunctionalityOfBookedItinerary();
 		Log.info("Navigates to BookedItineraryPage");
@@ -114,9 +122,11 @@ public class SearchHotelPageTest extends BaseClass {
 
 	}
 	
-	@Test
+	@Test(groups = { "Smoke", "Sanity"})
 	public void verifyChangePasswordLink() throws Exception {
 		Log.startTestCase("verifyChangePasswordLink");
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Log.info("verifyChangePasswordLink is click");
 		changePasswordPage = searchHotelPage.verifyThefunctionalityOfChangePassword();
 		Log.info("Navigates to ChangePasswordPage");
@@ -132,9 +142,11 @@ public class SearchHotelPageTest extends BaseClass {
 
 	}
 	
-	@Test
+	@Test(groups = { "Smoke", "Sanity"})
 	public void verifyLogoutLink() throws Exception {
 		Log.startTestCase("verifyLogoutLink");
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Log.info("verifyLogoutLink is click");
 		logoutPage = searchHotelPage.verifyThefunctionalityOfLogout();
 		Log.info("Navigates to LogoutPage");
@@ -154,12 +166,14 @@ public class SearchHotelPageTest extends BaseClass {
 	
 	
 	
-	@Test(dataProvider = "Hotel", dataProviderClass = DataProviders.class)
+	@Test(groups = { "Smoke", "Sanity", "Regression" },dataProvider = "Hotel", dataProviderClass = DataProviders.class)
 	public void verifyFunctionalityOfSearchHotelPage(String strLocation, String strHotels, String strRoomType, String strNoofRoom,
 			String strCheckInDate, String strCheckOutDate, String strAdultPerRoom, String strChildPerRoom) throws Exception
 	{
 		
 		Log.startTestCase("verifyFunctionalityOfSearchHotelPage");
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Log.info("verifySearchHotelDetails is click");
 		selectHotelPage = searchHotelPage.verifyFunctionalityOfSearch(strLocation, strHotels, strRoomType,
 						strNoofRoom, strCheckInDate, strCheckOutDate, strAdultPerRoom, strChildPerRoom);
@@ -177,15 +191,17 @@ public class SearchHotelPageTest extends BaseClass {
 
 	}
 	
-	@Test
+	@Test(groups = { "Smoke", "Sanity"})
 	public void verifyListOffieldDislayedTestdataTest() {
+		loginPage = new LoginPage();
+		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		searchHotelPage.verifyListOffieldDislayedTestdata();
 	}
 	
 	
-	@AfterMethod
+	@AfterMethod(groups = { "Smoke", "Sanity", "Regression" })
 	public void tearDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 
 }

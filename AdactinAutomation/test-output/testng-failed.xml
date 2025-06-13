@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.adactin.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test_All(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.adactin.testcases.SelectHotelPageTest">
+      <class name="com.adactin.testcases.LoginPageTest">
         <methods>
-          <include name="BaseClass"/>
+          <include name="afterSuite"/>
           <include name="setUp"/>
+          <include name="verifyFunctionalityForiOSTest"/>
           <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="verifyTotalPriceTest"/>
+          <include name="verifyLoginFunctionality" invocation-numbers="1 2 3 4"/>
+          <include name="verifyFunctionalityForGooglePlayTest"/>
+          <include name="loadConfig"/>
         </methods>
-      </class> <!-- com.adactin.testcases.SelectHotelPageTest -->
+      </class> <!-- com.adactin.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test_All(failed) -->
+</suite> <!-- Failed suite [Suite] -->

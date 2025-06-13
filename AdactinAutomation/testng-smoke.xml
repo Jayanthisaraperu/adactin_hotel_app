@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test  name="Smoke">
+		<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.adactin.testcases.LoginPageTest" />
+			<class name="com.adactin.testcases.BookAHotelPageTest" />
+			<class name="com.adactin.testcases.SearchHotelPageTest" />
+			<class name="com.adactin.testcases.BookingConfirmationPageTest" />
+			<class name="com.adactin.testcases.SelectHotelPageTest" />
+			<class name="com.adactin.testcases.BookedItineraryPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  Smoke</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 12 19:29:55 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>267 seconds (267916 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adactin.testcases.LoginPageTest.verifyFunctionalityForGooglePlayTest()'><b>verifyFunctionalityForGooglePlayTest</b><br>Test class: com.adactin.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [https://play.google.com/store/apps/details?id=com.adactin.education.hotelbooking] but found [https://adactinhotelapp.com/index.php]
+	at com.adactin.testcases.LoginPageTest.verifyFunctionalityForGooglePlayTest(LoginPageTest.java:100)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace219812012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace219812012'><pre>java.lang.AssertionError: expected [https://play.google.com/store/apps/details?id=com.adactin.education.hotelbooking] but found [https://adactinhotelapp.com/index.php]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.adactin.testcases.LoginPageTest.verifyFunctionalityForGooglePlayTest(LoginPageTest.java:100)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>com.adactin.testcases.LoginPageTest@7f2cfe3f</td></tr>
+<tr>
+<td title='com.adactin.testcases.LoginPageTest.verifyFunctionalityForiOSTest()'><b>verifyFunctionalityForiOSTest</b><br>Test class: com.adactin.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [https://testflight.apple.com/join/Ai3nVPMD] but found [https://adactinhotelapp.com/index.php]
+	at com.adactin.testcases.LoginPageTest.verifyFunctionalityForiOSTest(LoginPageTest.java:76)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1625428489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1625428489'><pre>java.lang.AssertionError: expected [https://testflight.apple.com/join/Ai3nVPMD] but found [https://adactinhotelapp.com/index.php]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.adactin.testcases.LoginPageTest.verifyFunctionalityForiOSTest(LoginPageTest.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>5</td>
+<td>com.adactin.testcases.LoginPageTest@7f2cfe3f</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifyListOffieldDislayedTestdataTest()'><b>verifyListOffieldDislayedTestdataTest</b><br>Test class: com.adactin.testcases.SearchHotelPageTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [437ddc83060177095a74c8a3abc50899, getElementText {id=f.7C08CAB8F76173FAC2F6B385FE50A8C1.d.ABD3FBE9A815444CD17E938E0651EB89.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.103, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 137.0.7151.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (437ddc83060177095a74c8a3abc50899)] -&gt; xpath: //table[@class=&apos;login&apos;]//td[2]]
+Session ID: 437ddc83060177095a74c8a3abc50899
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at com.adactin.pageobjects.SearchHotelPage.verifyListOffieldDislayedTestdata(SearchHotelPage.java:236)
+	at com.adactin.testcases.SearchHotelPageTest.verifyListOffieldDislayedTestdataTest(SearchHotelPageTest.java:198)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340995848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340995848'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [437ddc83060177095a74c8a3abc50899, getElementText {id=f.7C08CAB8F76173FAC2F6B385FE50A8C1.d.ABD3FBE9A815444CD17E938E0651EB89.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.103, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64780/devtoo..., se:cdpVersion: 137.0.7151.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (437ddc83060177095a74c8a3abc50899)] -&gt; xpath: //table[@class=&apos;login&apos;]//td[2]]
+Session ID: 437ddc83060177095a74c8a3abc50899
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at com.adactin.pageobjects.SearchHotelPage.verifyListOffieldDislayedTestdata(SearchHotelPage.java:236)
+	at com.adactin.testcases.SearchHotelPageTest.verifyListOffieldDislayedTestdataTest(SearchHotelPageTest.java:198)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adactin.testcases.BookAHotelPageTest.verifyBookAHotelDetails()'><b>verifyBookAHotelDetails</b><br>Test class: com.adactin.testcases.BookAHotelPageTest<br>Parameters: Sydney, Hotel Creek, Standard, 1 - One, 5/29/25, 5/30/25, 1 - One, 2 - Two, test, test, test, 1234342345654320, American Express, December, 2027, 777</td>
+<td></td>
+<td>33</td>
+<td>com.adactin.testcases.BookAHotelPageTest@1a5b6f42</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifyBookedItineraryLink()'><b>verifyBookedItineraryLink</b><br>Test class: com.adactin.testcases.SearchHotelPageTest</td>
+<td></td>
+<td>15</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifyChangePasswordLink()'><b>verifyChangePasswordLink</b><br>Test class: com.adactin.testcases.SearchHotelPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifyDisplayOfSearchHotelPage()'><b>verifyDisplayOfSearchHotelPage</b><br>Test class: com.adactin.testcases.SearchHotelPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+<tr>
+<td title='com.adactin.testcases.LoginPageTest.verifyForgotPassword()'><b>verifyForgotPassword</b><br>Test class: com.adactin.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.adactin.testcases.LoginPageTest@7f2cfe3f</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifyFunctionalityOfSearchHotelPage()'><b>verifyFunctionalityOfSearchHotelPage</b><br>Test class: com.adactin.testcases.SearchHotelPageTest<br>Parameters: Sydney, Hotel Creek, Standard, 1 - One, 5/29/25, 5/30/25, 1 - One, 2 - Two</td>
+<td></td>
+<td>7</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+<tr>
+<td title='com.adactin.testcases.LoginPageTest.verifyLogoTest()'><b>verifyLogoTest</b><br>Test class: com.adactin.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.adactin.testcases.LoginPageTest@7f2cfe3f</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifyLogoutLink()'><b>verifyLogoutLink</b><br>Test class: com.adactin.testcases.SearchHotelPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+<tr>
+<td title='com.adactin.testcases.LoginPageTest.verifyNewUserRegisterHereLink()'><b>verifyNewUserRegisterHereLink</b><br>Test class: com.adactin.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.adactin.testcases.LoginPageTest@7f2cfe3f</td></tr>
+<tr>
+<td title='com.adactin.testcases.BookedItineraryPageTest.verifySearchHotel()'><b>verifySearchHotel</b><br>Test class: com.adactin.testcases.BookedItineraryPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.adactin.testcases.BookedItineraryPageTest@6bb4dd34</td></tr>
+<tr>
+<td title='com.adactin.testcases.SearchHotelPageTest.verifySearchHotelPageTitle()'><b>verifySearchHotelPageTitle</b><br>Test class: com.adactin.testcases.SearchHotelPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.adactin.testcases.SearchHotelPageTest@5038d0b5</td></tr>
+<tr>
+<td title='com.adactin.testcases.SelectHotelPageTest.verifySelectHotelDetails()'><b>verifySelectHotelDetails</b><br>Test class: com.adactin.testcases.SelectHotelPageTest<br>Parameters: Sydney, Hotel Creek, Standard, 1 - One, 5/29/25, 5/30/25, 1 - One, 2 - Two</td>
+<td></td>
+<td>19</td>
+<td>com.adactin.testcases.SelectHotelPageTest@2ad48653</td></tr>
+<tr>
+<td title='com.adactin.testcases.BookAHotelPageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.adactin.testcases.BookAHotelPageTest<br>Parameters: Sydney, Hotel Creek, Standard, 1 - One, 5/29/25, 5/30/25, 1 - One, 2 - Two</td>
+<td></td>
+<td>20</td>
+<td>com.adactin.testcases.BookAHotelPageTest@1a5b6f42</td></tr>
+<tr>
+<td title='com.adactin.testcases.SelectHotelPageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.adactin.testcases.SelectHotelPageTest<br>Parameters: Sydney, Hotel Creek, Standard, 1 - One, 5/29/25, 5/30/25, 1 - One, 2 - Two</td>
+<td></td>
+<td>9</td>
+<td>com.adactin.testcases.SelectHotelPageTest@2ad48653</td></tr>
+<tr>
+<td title='com.adactin.testcases.LoginPageTest.verifyTitleTest()'><b>verifyTitleTest</b><br>Test class: com.adactin.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.adactin.testcases.LoginPageTest@7f2cfe3f</td></tr>
+<tr>
+<td title='com.adactin.testcases.SelectHotelPageTest.verifyTotalPriceTest()'><b>verifyTotalPriceTest</b><br>Test class: com.adactin.testcases.SelectHotelPageTest<br>Parameters: Sydney, Hotel Creek, Standard, 1 - One, 5/29/25, 5/30/25, 1 - One, 2 - Two</td>
+<td></td>
+<td>8</td>
+<td>com.adactin.testcases.SelectHotelPageTest@2ad48653</td></tr>
+<tr>
+<td title='com.adactin.testcases.BookingConfirmationPageTest.verifyverifyBookingConfirmationPageTest()'><b>verifyverifyBookingConfirmationPageTest</b><br>Test class: com.adactin.testcases.BookingConfirmationPageTest</td>
+<td></td>
+<td>10</td>
+<td>com.adactin.testcases.BookingConfirmationPageTest@32115b28</td></tr>
+</table><p>
+</body>
+</html>

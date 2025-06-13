@@ -3,6 +3,7 @@ package com.adactin.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.adactin.base.BaseClass;
@@ -14,54 +15,56 @@ import com.adactin.pageobjects.NewUserRegistrationFormPage;
 import com.adactin.pageobjects.SearchHotelPage;
 import com.adactin.pageobjects.TestingAppsWithTestFlightPage;
 import com.adactin.utility.Log;
+import com.beust.jcommander.Parameter;
 
 public class LoginPageTest extends BaseClass {
 
-	LoginPage loginpage;
-	SearchHotelPage searchHotelPage;
-	ForgotPasswordFormPage forgotPasswordFormPage; 
-	TestingAppsWithTestFlightPage testingAppsWithTestFlightPage;
-	GooglePlayPage googlePlayPage;
-	NewUserRegistrationFormPage newUserRegistrationFormPage;
-	
-	@BeforeMethod
-	public void setUp() {
-		launchApp();
-		loginpage = new LoginPage();	
+	private LoginPage loginpage;
+	private SearchHotelPage searchHotelPage;
+	private ForgotPasswordFormPage forgotPasswordFormPage;
+	private TestingAppsWithTestFlightPage testingAppsWithTestFlightPage;
+	private GooglePlayPage googlePlayPage;
+	private NewUserRegistrationFormPage newUserRegistrationFormPage;
+
+	@Parameters("browser")
+	@BeforeMethod(groups = { "Smoke", "Sanity", "Regression" })
+	public void setUp(String browser) {
+		launchApp(browser);
+//		loginpage = new LoginPage();	
 	}
-	
-	@AfterMethod
+
+	@AfterMethod(groups = { "Smoke", "Sanity", "Regression" })
 	public void tearDown() {
-		driver.quit();
+		getDriver().quit();
 	}
-	
-	@Test( enabled = true)
+
+	@Test(groups = "Smoke", enabled = true)
 	public void verifyLogoTest() {
 		Log.startTestCase("loginTest");
-
+		loginpage = new LoginPage();
 		boolean result = loginpage.verifyLogo();
 		Log.info("Verifying Logo");
 		Assert.assertTrue(result);
 		Log.info("Logo Success");
 		Log.endTestCase("loginTest");
-		
+
 	}
-	
-	
-	@Test( enabled = true)
+
+	@Test(groups = "Smoke")
 	public void verifyTitleTest() {
 		Log.startTestCase("loginTest");
-
+		loginpage = new LoginPage();
 		String actualTitle = loginpage.verifyTitle();
 		Log.info("Verifying Title");
 		Assert.assertEquals(actualTitle, "Adactin.com - Hotel Reservation System");
 		Log.info(" Title Success");
 		Log.endTestCase("loginTest");
 	}
-	
-	@Test
+
+	@Test(groups = { "Smoke", "Sanity" })
 	public void verifyFunctionalityForiOSTest() throws Exception {
 		Log.startTestCase("verify Functionality For iOSTest");
+		loginpage = new LoginPage();
 		loginpage.verifyForiOS();
 		Log.info("Verify For iOS Displayed");
 		Assert.assertTrue(true);
@@ -73,12 +76,13 @@ public class LoginPageTest extends BaseClass {
 		Assert.assertEquals(actual, expected);
 		Log.info("iOS Success");
 		Log.endTestCase("verify Functionality ForiOS Test");
-		
-		}
-	@Test
+
+	}
+
+	@Test(groups = { "Smoke", "Sanity" })
 	public void verifyFunctionalityForGooglePlayTest() throws Exception {
 		Log.startTestCase("verifyFunctionalityForGooglePlayTest");
-
+		loginpage = new LoginPage();
 		loginpage.verifyGooglePlay();
 		Log.info("GooglePlay is displayed");
 
@@ -93,17 +97,18 @@ public class LoginPageTest extends BaseClass {
 		String expected = "https://play.google.com/store/apps/details?id=com.adactin.education.hotelbooking";
 		Log.info("Verify GooglePlayPage");
 
-		Assert.assertEquals(actual,expected);
-		
+		Assert.assertEquals(actual, expected);
+
 		Log.info(" GooglePlayPage Success");
 
 		Log.endTestCase("verifyFunctionalityForGooglePlayTest");
 
 	}
-	
-	@Test
-	public  void verifyNewUserRegisterHereLink() {
+
+	@Test(groups = { "Smoke", "Sanity" })
+	public void verifyNewUserRegisterHereLink() {
 		Log.startTestCase("verifyNewUserRegisterHereLink");
+		loginpage = new LoginPage();
 		loginpage.displayOfNewUserRegisterHere();
 		Log.info("NewUserRegisterHereLink is displayed");
 		Assert.assertTrue(true);
@@ -119,14 +124,17 @@ public class LoginPageTest extends BaseClass {
 		Log.endTestCase("verifyNewUserRegisterHereLink");
 
 	}
-	
-	@Test(dataProvider = "credentials", dataProviderClass = DataProviders.class)
+
+	@Test(groups = { "Sanity",
+			"Regression" }, dataProvider = "credentials", dataProviderClass = DataProviders.class)
 	public void verifyLoginFunctionality(String uname, String pwsd) throws Exception {
-		//searchHotelPage = loginpage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
-		
+		// searchHotelPage = loginpage.doLogin(prop.getProperty("username"),
+		// prop.getProperty("password"));
+
 		Log.startTestCase("loginTest");
-	    searchHotelPage = loginpage.doLogin(uname,pwsd);
-	    Log.info("Enters Username and Password and clicks Login button ");
+		loginpage = new LoginPage();
+		searchHotelPage = loginpage.doLogin(uname, pwsd);
+		Log.info("Enters Username and Password and clicks Login button ");
 		Thread.sleep(2000);
 		String actualUrl = searchHotelPage.getCurrUrlSearchHotelPage();
 		String expectedUrl = "https://adactinhotelapp.com/SearchHotel.php";
@@ -135,9 +143,11 @@ public class LoginPageTest extends BaseClass {
 		Log.info("Login is Success");
 		Log.endTestCase("loginTest");
 	}
-		@Test
+
+	@Test(groups = { "Smoke", "Sanity" })
 	public void verifyForgotPassword() {
-			Log.startTestCase(" ForgotPassword Test");
+		Log.startTestCase(" ForgotPassword Test");
+		loginpage = new LoginPage();
 		forgotPasswordFormPage = loginpage.verifyFunctionalityForgotPassword();
 		Log.info("Click Forgor Password Link");
 		String actual = forgotPasswordFormPage.getForgotPasswordFormPageUrl();

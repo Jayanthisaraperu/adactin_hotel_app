@@ -15,63 +15,63 @@ import com.adactin.actiondriver.Action;
 import com.adactin.base.BaseClass;
 
 public class SearchHotelPage extends BaseClass {
-
+	
 	Action action = new Action();
 
 	@FindBy(xpath = "//a[contains(text(),'Search Hotel')]")
-	WebElement link_search_hotel;
+	private WebElement link_search_hotel;
 
 	@FindBy(xpath = "//a[contains(text(),'Booked Itinerary')]")
-	WebElement link_booked_itinerary;
+	private  WebElement link_booked_itinerary;
 
 	@FindBy(xpath = "//a[contains(text(),'Change Password')]")
-	WebElement link_change_password;
+	private WebElement link_change_password;
 
 	@FindBy(xpath = "//a[contains(text(),'Logout')]")
-	WebElement link_logout;
+	private  WebElement link_logout;
 
 	@FindBy(id = "location")
-	WebElement dropdown_location;
+	private  WebElement dropdown_location;
 
 	@FindBy(id = "hotels")
-	WebElement dropdown_hotels;
+	private WebElement dropdown_hotels;
 
 	@FindBy(id = "room_type")
-	WebElement dropdown_roomtype;
+	private WebElement dropdown_roomtype;
 
 	@FindBy(id = "room_nos")
-	WebElement dropdown_nos_of_rooms;
+	private  WebElement dropdown_nos_of_rooms;
 
 	@FindBy(id = "datepick_in")
-	WebElement txt_check_in_date;
+	private WebElement txt_check_in_date;
 
 	@FindBy(id = "datepick_out")
-	WebElement txt_check_out_date;
+	private  WebElement txt_check_out_date;
 
 	@FindBy(id = "adult_room")
-	WebElement dropdown_adults_per_room;
+	private WebElement dropdown_adults_per_room;
 
 	@FindBy(id = "child_room")
-	WebElement dropdown_children_per_room;
+	private WebElement dropdown_children_per_room;
 
 	@FindBy(id = "Submit")
-	WebElement button_search;
+	private WebElement button_search;
 
 	@FindBy(id = "Reset")
-	WebElement button_reset;
+	private  WebElement button_reset;
 
 //	@FindBy (xpath="//table[@class='login']//td[2]")
 //	WebElement search_hotel_table;
 
 	public SearchHotelPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 
 	public String getSearchHotelPageTitle() {
-		return driver.getTitle();
+		return getDriver().getTitle();
 	}
 
-	public void select_Location(String selectlocation) {
+	public  void select_Location(String selectlocation) {
 		action.selectByVisibleText(selectlocation, dropdown_location);
 
 	}
@@ -120,11 +120,11 @@ public class SearchHotelPage extends BaseClass {
 //	}
 
 	public void clickReset() {
-		action.click(driver, button_reset);
+		action.click(getDriver(), button_reset);
 	}
 
 	public String getCurrUrlSearchHotelPage() {
-		String searchHotelPageUrl = driver.getCurrentUrl();
+		String searchHotelPageUrl = getDriver().getCurrentUrl();
 		return searchHotelPageUrl;
 	}
 
@@ -161,7 +161,7 @@ public class SearchHotelPage extends BaseClass {
 		action.type(txt_check_out_date, strCheckOutDate);
 		action.selectByVisibleText(strAdultPerRoom, dropdown_adults_per_room);
 		action.selectByVisibleText(strChildPerRoom, dropdown_children_per_room);
-		action.click(driver, button_search);
+		action.click(getDriver(), button_search);
 		Thread.sleep(5000);
 		return new SelectHotelPage();
 
@@ -229,7 +229,7 @@ public class SearchHotelPage extends BaseClass {
 	}
 
 	public void verifyListOffieldDislayedTestdata() {
-		List<WebElement> searchhotelfields = driver.findElements(By.xpath("//table[@class='login']//td[2]"));
+		List<WebElement> searchhotelfields = getDriver().findElements(By.xpath("//table[@class='login']//td[2]"));
 		System.out.println(searchhotelfields.size());
 
 		for (WebElement searchhotelfield : searchhotelfields) {

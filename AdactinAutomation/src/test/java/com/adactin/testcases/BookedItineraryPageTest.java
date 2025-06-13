@@ -3,6 +3,7 @@ package com.adactin.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.adactin.base.BaseClass;
@@ -16,21 +17,22 @@ public class BookedItineraryPageTest extends BaseClass {
 	BookedItineraryPage bookedItineraryPage;
 	SearchHotelPage searchHotelPage;
 	
-	@BeforeMethod
-	public void setUp() throws Exception {
-		launchApp();
+	@Parameters("browser")
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
+	public void setUp(String browser) throws Exception {
+		launchApp(browser);
 		loginPage = new LoginPage();
 		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		bookedItineraryPage = searchHotelPage.verifyThefunctionalityOfBookedItinerary();
 
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 	
-	@Test
+	@Test(groups = {"Smoke", "Sanity"})
 	public void verifySearchHotel() throws Exception {
 
 		System.out.println("Inside bookedItineraryPage");

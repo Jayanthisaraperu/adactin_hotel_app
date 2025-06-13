@@ -24,15 +24,15 @@ public class BookingConfirmationPage extends BaseClass{
 	
 	public BookingConfirmationPage() {
 
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	public String getBookingConfirmationPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 	
 	public boolean verifyBookingConfirmationPage() {
-		return action.isDisplayed(driver, order_no);
+		return action.isDisplayed(getDriver(), order_no);
 		
 	}
 }

@@ -8,6 +8,6 @@ public class NewUserRegistrationFormPage extends BaseClass{
 	Action action = new Action();
 	
 	public String getNewUserRegistrationFormPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 }

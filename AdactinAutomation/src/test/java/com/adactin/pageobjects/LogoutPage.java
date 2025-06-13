@@ -8,7 +8,7 @@ public class LogoutPage extends BaseClass{
 	Action action = new Action();
 	
 	public String getLogoutPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 
 }

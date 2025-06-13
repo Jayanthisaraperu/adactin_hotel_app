@@ -1,33 +1,1139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="10" total="35" passed="19" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-02T06:39:32Z" name="Default suite" finished-at="2025-06-02T06:40:19Z" duration-ms="47108">
+  <suite started-at="2025-06-12T14:37:21Z" name="Suite" finished-at="2025-06-12T14:42:43Z" duration-ms="321656">
     <groups>
+      <group name="Sanity">
+        <method signature="BookAHotelPageTest.verifyBookAHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" name="verifyBookAHotelDetails" class="com.adactin.testcases.BookAHotelPageTest"/>
+        <method signature="BookAHotelPageTest.verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" name="verifyTitle" class="com.adactin.testcases.BookAHotelPageTest"/>
+        <method signature="BookedItineraryPageTest.verifySearchHotel()[pri:0, instance:com.adactin.testcases.BookedItineraryPageTest@383dc82c]" name="verifySearchHotel" class="com.adactin.testcases.BookedItineraryPageTest"/>
+        <method signature="LoginPageTest.verifyForgotPassword()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyForgotPassword" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyFunctionalityForGooglePlayTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyFunctionalityForGooglePlayTest" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyFunctionalityForiOSTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyFunctionalityForiOSTest" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyLoginFunctionality" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyNewUserRegisterHereLink()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyNewUserRegisterHereLink" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="SearchHotelPageTest.verifyBookedItineraryLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyBookedItineraryLink" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyChangePasswordLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyChangePasswordLink" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyFunctionalityOfSearchHotelPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyFunctionalityOfSearchHotelPage" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyListOffieldDislayedTestdataTest()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyListOffieldDislayedTestdataTest" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyLogoutLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyLogoutLink" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifySearchHotelPageTitle()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifySearchHotelPageTitle" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifySelectHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifySelectHotelDetails" class="com.adactin.testcases.SelectHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifyTitle" class="com.adactin.testcases.SelectHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifyTotalPriceTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifyTotalPriceTest" class="com.adactin.testcases.SelectHotelPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="BookAHotelPageTest.verifyBookAHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" name="verifyBookAHotelDetails" class="com.adactin.testcases.BookAHotelPageTest"/>
+        <method signature="LoginPageTest.verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyLoginFunctionality" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="SearchHotelPageTest.verifyFunctionalityOfSearchHotelPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyFunctionalityOfSearchHotelPage" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifyTotalPriceTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifyTotalPriceTest" class="com.adactin.testcases.SelectHotelPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="BookAHotelPageTest.verifyBookAHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" name="verifyBookAHotelDetails" class="com.adactin.testcases.BookAHotelPageTest"/>
+        <method signature="BookAHotelPageTest.verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" name="verifyTitle" class="com.adactin.testcases.BookAHotelPageTest"/>
+        <method signature="BookedItineraryPageTest.verifySearchHotel()[pri:0, instance:com.adactin.testcases.BookedItineraryPageTest@383dc82c]" name="verifySearchHotel" class="com.adactin.testcases.BookedItineraryPageTest"/>
+        <method signature="BookingConfirmationPageTest.verifyverifyBookingConfirmationPageTest()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@61710c6]" name="verifyverifyBookingConfirmationPageTest" class="com.adactin.testcases.BookingConfirmationPageTest"/>
+        <method signature="LoginPageTest.verifyForgotPassword()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyForgotPassword" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyFunctionalityForGooglePlayTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyFunctionalityForGooglePlayTest" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyFunctionalityForiOSTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyFunctionalityForiOSTest" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLogoTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyLogoTest" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyNewUserRegisterHereLink()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyNewUserRegisterHereLink" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTitleTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" name="verifyTitleTest" class="com.adactin.testcases.LoginPageTest"/>
+        <method signature="SearchHotelPageTest.verifyBookedItineraryLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyBookedItineraryLink" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyChangePasswordLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyChangePasswordLink" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyDisplayOfSearchHotelPage()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyDisplayOfSearchHotelPage" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyFunctionalityOfSearchHotelPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyFunctionalityOfSearchHotelPage" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyListOffieldDislayedTestdataTest()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyListOffieldDislayedTestdataTest" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifyLogoutLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifyLogoutLink" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SearchHotelPageTest.verifySearchHotelPageTitle()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" name="verifySearchHotelPageTitle" class="com.adactin.testcases.SearchHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifySelectHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifySelectHotelDetails" class="com.adactin.testcases.SelectHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifyTitle" class="com.adactin.testcases.SelectHotelPageTest"/>
+        <method signature="SelectHotelPageTest.verifyTotalPriceTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" name="verifyTotalPriceTest" class="com.adactin.testcases.SelectHotelPageTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-06-02T06:39:32Z" name="Default test" finished-at="2025-06-02T06:40:19Z" duration-ms="47108">
+    <test started-at="2025-06-12T14:37:21Z" name="Test_All" finished-at="2025-06-12T14:42:43Z" duration-ms="321656">
       <class name="com.adactin.testcases.BookingConfirmationPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:39:32Z" name="beforeSuite" finished-at="2025-06-02T06:39:32Z" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="BaseClass()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:39:32Z" name="BaseClass" finished-at="2025-06-02T06:39:32Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BaseClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:39:32Z" name="setUp" finished-at="2025-06-02T06:40:09Z" duration-ms="36691" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@61710c6]" started-at="2025-06-12T14:40:43Z" name="setUp" finished-at="2025-06-12T14:41:21Z" duration-ms="37672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyverifyBookingConfirmationPageTest()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:40:09Z" name="verifyverifyBookingConfirmationPageTest" finished-at="2025-06-02T06:40:19Z" duration-ms="10088" status="PASS">
+        <test-method signature="verifyverifyBookingConfirmationPageTest()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@61710c6]" started-at="2025-06-12T14:41:21Z" name="verifyverifyBookingConfirmationPageTest" finished-at="2025-06-12T14:41:31Z" duration-ms="10092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyverifyBookingConfirmationPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@15d49048]" started-at="2025-06-02T06:40:19Z" name="tearDown" finished-at="2025-06-02T06:40:19Z" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.BookingConfirmationPageTest@61710c6]" started-at="2025-06-12T14:41:31Z" name="tearDown" finished-at="2025-06-12T14:41:31Z" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.adactin.testcases.BookingConfirmationPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.adactin.testcases.SelectHotelPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:41:31Z" name="setUp" finished-at="2025-06-12T14:41:34Z" duration-ms="3354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySelectHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:41:34Z" name="verifySelectHotelDetails" data-provider="Hotel" finished-at="2025-06-12T14:41:55Z" duration-ms="20210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/29/25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/30/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectHotelDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:41:55Z" name="tearDown" finished-at="2025-06-12T14:41:55Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:41:55Z" name="setUp" finished-at="2025-06-12T14:41:58Z" duration-ms="3123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:41:58Z" name="verifyTitle" data-provider="Hotel" finished-at="2025-06-12T14:42:08Z" duration-ms="9809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/29/25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/30/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:42:08Z" name="tearDown" finished-at="2025-06-12T14:42:08Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:42:08Z" name="setUp" finished-at="2025-06-12T14:42:11Z" duration-ms="3201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTotalPriceTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:42:11Z" name="verifyTotalPriceTest" data-provider="Hotel" finished-at="2025-06-12T14:42:20Z" duration-ms="8270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/29/25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/30/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SelectHotelPageTest@3214ee6]" started-at="2025-06-12T14:42:20Z" name="tearDown" finished-at="2025-06-12T14:42:20Z" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactin.testcases.SelectHotelPageTest -->
+      <class name="com.adactin.testcases.LoginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:21Z" name="loadConfig" finished-at="2025-06-12T14:37:21Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:21Z" name="setUp" finished-at="2025-06-12T14:37:25Z" duration-ms="3781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyForgotPassword()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:25Z" name="verifyForgotPassword" finished-at="2025-06-12T14:37:26Z" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:27Z" name="tearDown" finished-at="2025-06-12T14:37:27Z" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:27Z" name="setUp" finished-at="2025-06-12T14:37:30Z" duration-ms="3118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFunctionalityForGooglePlayTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:30Z" name="verifyFunctionalityForGooglePlayTest" finished-at="2025-06-12T14:37:32Z" duration-ms="2379" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://play.google.com/store/apps/details?id=com.adactin.education.hotelbooking] but found [https://adactinhotelapp.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://play.google.com/store/apps/details?id=com.adactin.education.hotelbooking] but found [https://adactinhotelapp.com/index.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.adactin.testcases.LoginPageTest.verifyFunctionalityForGooglePlayTest(LoginPageTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFunctionalityForGooglePlayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:33Z" name="tearDown" finished-at="2025-06-12T14:37:33Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:33Z" name="setUp" finished-at="2025-06-12T14:37:36Z" duration-ms="3271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFunctionalityForiOSTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:36Z" name="verifyFunctionalityForiOSTest" finished-at="2025-06-12T14:37:42Z" duration-ms="5386" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://testflight.apple.com/join/Ai3nVPMD] but found [https://adactinhotelapp.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://testflight.apple.com/join/Ai3nVPMD] but found [https://adactinhotelapp.com/index.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.adactin.testcases.LoginPageTest.verifyFunctionalityForiOSTest(LoginPageTest.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFunctionalityForiOSTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:42Z" name="tearDown" finished-at="2025-06-12T14:37:42Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:43Z" name="setUp" finished-at="2025-06-12T14:37:46Z" duration-ms="3468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:46Z" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-06-12T14:37:50Z" duration-ms="3944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JayanthiSaraPeru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JayanthiSaraPeru@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:50Z" name="tearDown" finished-at="2025-06-12T14:37:50Z" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:50Z" name="setUp" finished-at="2025-06-12T14:37:54Z" duration-ms="3138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:54Z" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-06-12T14:37:56Z" duration-ms="2521" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.adactin.testcases.LoginPageTest.verifyLoginFunctionality(LoginPageTest.java:142)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:56Z" name="tearDown" finished-at="2025-06-12T14:37:57Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:37:57Z" name="setUp" finished-at="2025-06-12T14:38:00Z" duration-ms="3114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:00Z" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-06-12T14:38:02Z" duration-ms="2506" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JayanthiSaraPeru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.adactin.testcases.LoginPageTest.verifyLoginFunctionality(LoginPageTest.java:142)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:03Z" name="tearDown" finished-at="2025-06-12T14:38:04Z" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:04Z" name="setUp" finished-at="2025-06-12T14:38:07Z" duration-ms="2985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:07Z" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-06-12T14:38:10Z" duration-ms="2735" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JayanthiSaraPeru@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.adactin.testcases.LoginPageTest.verifyLoginFunctionality(LoginPageTest.java:142)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:10Z" name="tearDown" finished-at="2025-06-12T14:38:11Z" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:11Z" name="setUp" finished-at="2025-06-12T14:38:14Z" duration-ms="3003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:14Z" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-06-12T14:38:16Z" duration-ms="2642" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/index.php]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.adactin.testcases.LoginPageTest.verifyLoginFunctionality(LoginPageTest.java:142)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:17Z" name="tearDown" finished-at="2025-06-12T14:38:17Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:17Z" name="setUp" finished-at="2025-06-12T14:38:20Z" duration-ms="3089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:20Z" name="verifyLogoTest" finished-at="2025-06-12T14:38:20Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:20Z" name="tearDown" finished-at="2025-06-12T14:38:20Z" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:20Z" name="setUp" finished-at="2025-06-12T14:38:24Z" duration-ms="3573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewUserRegisterHereLink()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:24Z" name="verifyNewUserRegisterHereLink" finished-at="2025-06-12T14:38:25Z" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserRegisterHereLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:25Z" name="tearDown" finished-at="2025-06-12T14:38:26Z" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:26Z" name="setUp" finished-at="2025-06-12T14:38:29Z" duration-ms="3215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitleTest()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:29Z" name="verifyTitleTest" finished-at="2025-06-12T14:38:29Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:38:29Z" name="tearDown" finished-at="2025-06-12T14:38:29Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.adactin.testcases.LoginPageTest@7d9f158f]" started-at="2025-06-12T14:42:43Z" name="afterSuite" finished-at="2025-06-12T14:42:43Z" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.adactin.testcases.LoginPageTest -->
+      <class name="com.adactin.testcases.SearchHotelPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:39:32Z" name="setUp" finished-at="2025-06-12T14:39:36Z" duration-ms="3304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBookedItineraryLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:39:36Z" name="verifyBookedItineraryLink" finished-at="2025-06-12T14:39:57Z" duration-ms="20978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookedItineraryLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:39:57Z" name="tearDown" finished-at="2025-06-12T14:39:57Z" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:39:57Z" name="setUp" finished-at="2025-06-12T14:40:00Z" duration-ms="3317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyChangePasswordLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:00Z" name="verifyChangePasswordLink" finished-at="2025-06-12T14:40:04Z" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePasswordLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:04Z" name="tearDown" finished-at="2025-06-12T14:40:05Z" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:05Z" name="setUp" finished-at="2025-06-12T14:40:08Z" duration-ms="3513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayOfSearchHotelPage()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:08Z" name="verifyDisplayOfSearchHotelPage" finished-at="2025-06-12T14:40:10Z" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfSearchHotelPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:10Z" name="tearDown" finished-at="2025-06-12T14:40:10Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:10Z" name="setUp" finished-at="2025-06-12T14:40:13Z" duration-ms="3027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFunctionalityOfSearchHotelPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:13Z" name="verifyFunctionalityOfSearchHotelPage" data-provider="Hotel" finished-at="2025-06-12T14:40:21Z" duration-ms="7635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/29/25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/30/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFunctionalityOfSearchHotelPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:21Z" name="tearDown" finished-at="2025-06-12T14:40:23Z" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:23Z" name="setUp" finished-at="2025-06-12T14:40:27Z" duration-ms="3698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyListOffieldDislayedTestdataTest()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:27Z" name="verifyListOffieldDislayedTestdataTest" finished-at="2025-06-12T14:40:28Z" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListOffieldDislayedTestdataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:28Z" name="tearDown" finished-at="2025-06-12T14:40:28Z" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:28Z" name="setUp" finished-at="2025-06-12T14:40:32Z" duration-ms="3356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutLink()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:32Z" name="verifyLogoutLink" finished-at="2025-06-12T14:40:35Z" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:35Z" name="tearDown" finished-at="2025-06-12T14:40:36Z" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:36Z" name="setUp" finished-at="2025-06-12T14:40:39Z" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelPageTitle()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:39Z" name="verifySearchHotelPageTitle" finished-at="2025-06-12T14:40:43Z" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.SearchHotelPageTest@4b8729ff]" started-at="2025-06-12T14:40:43Z" name="tearDown" finished-at="2025-06-12T14:40:43Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactin.testcases.SearchHotelPageTest -->
+      <class name="com.adactin.testcases.BookAHotelPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" started-at="2025-06-12T14:38:29Z" name="setUp" finished-at="2025-06-12T14:38:32Z" duration-ms="3108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBookAHotelDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" started-at="2025-06-12T14:38:32Z" name="verifyBookAHotelDetails" data-provider="BookAHotel" finished-at="2025-06-12T14:39:06Z" duration-ms="33915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/29/25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/30/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234342345654320]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2027]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookAHotelDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" started-at="2025-06-12T14:39:06Z" name="tearDown" finished-at="2025-06-12T14:39:07Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" started-at="2025-06-12T14:39:07Z" name="setUp" finished-at="2025-06-12T14:39:11Z" duration-ms="4368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" started-at="2025-06-12T14:39:11Z" name="verifyTitle" data-provider="Hotel" finished-at="2025-06-12T14:39:32Z" duration-ms="20830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/29/25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/30/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.BookAHotelPageTest@45efd90f]" started-at="2025-06-12T14:39:32Z" name="tearDown" finished-at="2025-06-12T14:39:32Z" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactin.testcases.BookAHotelPageTest -->
+      <class name="com.adactin.testcases.BookedItineraryPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.adactin.testcases.BookedItineraryPageTest@383dc82c]" started-at="2025-06-12T14:42:20Z" name="setUp" finished-at="2025-06-12T14:42:40Z" duration-ms="19664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotel()[pri:0, instance:com.adactin.testcases.BookedItineraryPageTest@383dc82c]" started-at="2025-06-12T14:42:40Z" name="verifySearchHotel" finished-at="2025-06-12T14:42:42Z" duration-ms="2431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.adactin.testcases.BookedItineraryPageTest@383dc82c]" started-at="2025-06-12T14:42:42Z" name="tearDown" finished-at="2025-06-12T14:42:43Z" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adactin.testcases.BookedItineraryPageTest -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
 </testng-results>

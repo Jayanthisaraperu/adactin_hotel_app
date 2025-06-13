@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [CrossBrowser]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Chrome_Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest">
+        <methods>
+          <include name="BaseClass"/>
+          <include name="setUp"/>
+          <include name="verifyFunctionalityForiOSTest"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verifyFunctionalityForGooglePlayTest"/>
+        </methods>
+      </class> <!-- com.adactin.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Chrome_Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Edge_Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest">
+        <methods>
+          <include name="BaseClass"/>
+          <include name="setUp"/>
+          <include name="verifyFunctionalityForiOSTest"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verifyFunctionalityForGooglePlayTest"/>
+        </methods>
+      </class> <!-- com.adactin.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Edge_Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Firefox_Test(failed)">
+    <parameter name="browser" value="gecko"/>
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest">
+        <methods>
+          <include name="BaseClass"/>
+          <include name="verifyForgotPassword"/>
+          <include name="setUp"/>
+          <include name="verifyFunctionalityForiOSTest"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verifyNewUserRegisterHereLink"/>
+          <include name="verifyFunctionalityForGooglePlayTest"/>
+        </methods>
+      </class> <!-- com.adactin.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Firefox_Test(failed) -->
+</suite> <!-- Failed suite [CrossBrowser] -->

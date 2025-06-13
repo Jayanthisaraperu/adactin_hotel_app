@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowser" parallel="tests" thread-count="3">
+  <test  name="Chrome_Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Edge_Test">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest"/>
+     
+    </classes>
+  </test>
+  
+  <test  name="Firefox_Test">
+  <parameter name="browser" value="gecko"></parameter>
+    <classes>
+      <class name="com.adactin.testcases.LoginPageTest"/>
+     
+    </classes>
+  </test>
+</suite> <!-- Suite -->

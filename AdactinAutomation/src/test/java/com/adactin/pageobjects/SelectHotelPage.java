@@ -33,24 +33,24 @@ public class SelectHotelPage extends BaseClass{
 	// 		(//form[@name='select_form']/table//tr) [position()>3]
 	public SelectHotelPage() {
 
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 		
 	}
 	
 	public String getUrlSelectHotelPage() {
-	return 	driver.getCurrentUrl();
+	return 	getDriver().getCurrentUrl();
 		
 	}
 	
 	public String getSelectHotelPagetitle() {
-		 return action.getTitle(driver);
+		 return action.getTitle(getDriver());
 	}
 	
 	public BookAHotelPage verifyFunctionalitySelectHotel() throws Exception {
 		action.getRowCount(table);
-		action.click(driver, radiobutton);
+		action.click(getDriver(), radiobutton);
 		
-		action.click(driver, button_continue);
+		action.click(getDriver(), button_continue);
 		Thread.sleep(2000);
 		return new BookAHotelPage();
 		

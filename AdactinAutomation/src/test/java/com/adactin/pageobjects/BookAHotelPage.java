@@ -70,7 +70,7 @@ public class BookAHotelPage extends BaseClass{
 	
 	public BookAHotelPage() {
 
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	public void selectMonth(String month) {
 		action.selectByVisibleText( month , dropdown_expiry_date_month);
@@ -87,11 +87,11 @@ public class BookAHotelPage extends BaseClass{
 	}
 	
 	public String getUrlBookAHotel() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 	
 	public String getTitleBookAHotel() {
-		return action.getTitle(driver);
+		return action.getTitle(getDriver());
 	}
 	
 	
@@ -107,8 +107,8 @@ public class BookAHotelPage extends BaseClass{
 
 		action.selectByVisibleText(year, dropdown_expiry_date_year);
 		action.type(cvv_no, cvv);
-		action.scrollByVisibilityOfElement(driver, button_book_now);
-		action.click(driver, button_book_now);
+		action.scrollByVisibilityOfElement(getDriver(), button_book_now);
+		action.click(getDriver(), button_book_now);
 		Thread.sleep(10000);
 		return new BookingConfirmationPage();
 		

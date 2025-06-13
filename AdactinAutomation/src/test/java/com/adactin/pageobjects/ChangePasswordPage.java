@@ -8,6 +8,6 @@ public class ChangePasswordPage  extends BaseClass{
 	Action action =  new Action();
 	
 	public String getChangePasswordUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 		 }
 }

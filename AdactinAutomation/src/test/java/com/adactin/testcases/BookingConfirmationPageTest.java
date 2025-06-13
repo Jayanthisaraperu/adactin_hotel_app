@@ -3,6 +3,7 @@ package com.adactin.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.adactin.base.BaseClass;
@@ -20,9 +21,10 @@ public class BookingConfirmationPageTest extends BaseClass{
 	BookAHotelPage bookAHotelPage;
 	BookingConfirmationPage bookingConfirmationPage;
 	
-	@BeforeMethod
-	public void setUp() throws Exception {
-		launchApp();
+	@Parameters("browser")
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
+	public void setUp(String browser) throws Exception {
+		launchApp(browser);
 		loginPage = new LoginPage();
 		searchHotelPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		selectHotelPage = searchHotelPage.verifyFunctionalityOfSearch("Sydney","Hotel Creek","Standard","1 - One","17-05-2025","18-05-2025","1 - One",
@@ -31,16 +33,16 @@ public class BookingConfirmationPageTest extends BaseClass{
 		bookingConfirmationPage = bookAHotelPage.verifyFunctionalityBookHote("test", "test", "test", "1234342345654320", "VISA", "December", "2027", "777"  );
 	}
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyverifyBookingConfirmationPageTest() {
 		bookingConfirmationPage.verifyBookingConfirmationPage();
 		Assert.assertTrue(true);
 	}
 	
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
 	public void tearDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 
 }

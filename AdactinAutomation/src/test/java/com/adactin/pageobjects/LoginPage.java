@@ -12,89 +12,89 @@ public class LoginPage extends BaseClass  {
 	Action action= new Action();
 	
 	@FindBy (id="username")
-	WebElement txt_username;
+	private WebElement txt_username;
 	
 	@FindBy (id="password")
-	WebElement txt_password;
+	private WebElement txt_password;
 	
 	@FindBy (xpath="//img[@class='logo']")
-	WebElement logo;
+	private WebElement logo;
 	
 	@FindBy (id="login")
-	WebElement button_login;
+	private WebElement button_login;
 	
 	@FindBy (xpath="//a[contains(text(),'Forgot Password?')]")
-	WebElement link_forgot_password;
+	private WebElement link_forgot_password;
 	
 	@FindBy (xpath="//a[contains(text(),'New User Register Here')]")
-	WebElement new_user_register_here;
+	private WebElement new_user_register_here;
 	
 	@FindBy (xpath="//a[contains(text(),'info@adactin.com')]")
-	WebElement for_any_queries;
+	private WebElement for_any_queries;
 	
 	@FindBy (xpath="//img[@src='img/ios-button.png']")
-	WebElement for_iOS;
+	private WebElement for_iOS;
 	
 	@FindBy (xpath="//img[@src='img/google-play.png']")
-	WebElement google_play;
+	private WebElement google_play;
 	
 	@FindBy (id="//a[contains(text(),'Adactin.com')]")
-	WebElement footer;
+	private WebElement footer;
 	
 	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	public String verifyTitle() {
-		return driver.getTitle();
+		return getDriver().getTitle();
 	}
 	
 	public boolean verifyForiOS() {
-		return action.isDisplayed(driver, for_iOS);
+		return action.isDisplayed(getDriver(), for_iOS);
 	}
 	
 	public TestingAppsWithTestFlightPage verifyFunctionalityForiOS() throws Exception {
-		action.click(driver, for_iOS);
+		action.click(getDriver(), for_iOS);
 		Thread.sleep(5000);
 		return new TestingAppsWithTestFlightPage();
 		
 	}
 	
 	public boolean verifyGooglePlay() {
-		return action.isDisplayed(driver, google_play);
+		return action.isDisplayed(getDriver(), google_play);
 	}
 	
 	public GooglePlayPage verifyFunctionalityGooglePlay() throws Exception {
-		action.click(driver, google_play);
+		action.click(getDriver(), google_play);
 		Thread.sleep(2000);
-		action.screenShot(driver, "GooglePlayPage");
+		
 
 		return new GooglePlayPage();
 		
 	}
 	
 	public boolean verifyForgotPassword() {
-		return action.isDisplayed(driver, link_forgot_password);
+		return action.isDisplayed(getDriver(), link_forgot_password);
 	}
 	
 	public ForgotPasswordFormPage verifyFunctionalityForgotPassword() {
-		action.click(driver, link_forgot_password);
+		action.click(getDriver(), link_forgot_password);
 		return new ForgotPasswordFormPage();
 		
 	}
 	
 	public boolean verifyLogo() {
 		
-		return action.isDisplayed(driver, logo);
+		return action.isDisplayed(getDriver(), logo);
 	}
 	
 	public boolean displayOfNewUserRegisterHere() {
-		return action.isDisplayed(driver, new_user_register_here);
+		return action.isDisplayed(getDriver(), new_user_register_here);
 	}
 	public NewUserRegistrationFormPage verifyNewUserRegisterHere() {
-		action.click(driver, new_user_register_here);
-		action.screenShot(driver, "NewUserRegistrationFormPage");
+		action.click(getDriver(), new_user_register_here);
+		
 
 		return new NewUserRegistrationFormPage();
 
@@ -103,7 +103,7 @@ public class LoginPage extends BaseClass  {
 	public SearchHotelPage doLogin(String username, String password) {
 		action.type(txt_username, username);
 		action.type(txt_password, password);
-		action.click(driver,button_login);
+		action.click(getDriver(),button_login);
 		return new SearchHotelPage();
 	}
 	

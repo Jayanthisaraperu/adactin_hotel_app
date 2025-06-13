@@ -19,13 +19,13 @@ public class BookedItineraryPage extends BaseClass{
 	
 	public BookedItineraryPage() {
 	
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	//     //a[contains(text(),'Search Hotel')]
 	
 	public String getBookedItineraryPageUrl() {
-		return action.getCurrentURL(driver);
+		return action.getCurrentURL(getDriver());
 	}
 	
 	public SearchHotelPage verifySearchHotelPage() throws Exception {
